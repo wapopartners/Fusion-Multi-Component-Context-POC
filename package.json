@@ -1,0 +1,26 @@
+{
+  "name": "Fusion-Multi-Component-Context-POC",
+  "version": "1.0.0",
+  "description": "This is a proof of concept to show how react context can be used to share state between components.",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "@arc-fusion/cli": "^1.1.0"
+  },
+  "scripts": {
+    "fusion": "fusion",
+    "start": "fusion start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wapopartners/Fusion-Multi-Component-Context-POC.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wapopartners/Fusion-Multi-Component-Context-POC/issues"
+  },
+  "homepage": "https://github.com/wapopartners/Fusion-Multi-Component-Context-POC#readme"
+}
