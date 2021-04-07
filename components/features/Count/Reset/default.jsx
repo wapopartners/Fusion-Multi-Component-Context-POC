@@ -1,8 +1,13 @@
-import React from 'react';
+import React, { useContext } from 'react';
+import CountContext from '../../../../context/CountContext';
 
 const Reset = () => {
+  const { canReset, reset } = useContext(CountContext);
   return (
-    <button>
+    <button
+      disabled={!canReset}
+      onClick={() => reset()}
+    >
       Reset
     </button>
   );

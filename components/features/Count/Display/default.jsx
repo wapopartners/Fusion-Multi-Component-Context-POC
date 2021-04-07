@@ -1,7 +1,9 @@
-import React from 'react';
+import React, { useContext } from 'react';
+import CountContext from '../../../../context/CountContext';
 
 const CountDisplay = () => {
-  return <h2>{`Count: ${0}`}</h2>;
+  const { count } = useContext(CountContext);
+  return <h2>{`Count: ${count}`}</h2>;
 };
 
 export default CountDisplay;
